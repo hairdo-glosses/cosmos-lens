@@ -1,0 +1,14 @@
+{
+  "cosmos-mainnet": {
+    "name": "Cosmos Mainnet",
+    "chainId": "cosmos-mainnet",
+    "rpc": "https://rpc.cosmos.network",
+    "explorer": "https://cosmos.basescan.org"
+  },
+  "cosmos-testnet": {
+    "name": "Cosmos Testnet",
+    "chainId": "cosmos-testnet",
+    "rpc": "https://rpc.cosmos-testnet.network",
+    "explorer": "https://testnet.cosmos.basescan.org"
+  }
+}
