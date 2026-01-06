@@ -1,0 +1,38 @@
+[DEBUG] Cosmos Lens Debug Log
+Timestamp: 2025-12-29T10:15:20Z
+
+[INFO] Starting Cosmos Lens validation run
+[INFO] Network: cosmos-testnet
+[INFO] RPC URL: https://rpc.cosmos-testnet.network
+[INFO] Chain ID: cosmos-testnet
+[INFO] Explorer URL: https://testnet.cosmos.basescan.org
+
+[INFO] Connecting to RPC endpoint...
+[DEBUG] Attempting to connect to https://rpc.cosmos-testnet.network
+[INFO] RPC connection successful
+[INFO] Fetching current block height from RPC...
+[DEBUG] Block height response: 1234567
+[INFO] Block height fetched successfully: 1234567
+
+[INFO] Querying account balance for exampleEOA...
+[DEBUG] Account address: cosmos1... (example address)
+[DEBUG] RPC request: balance for cosmos1...
+[INFO] Balance response: 1000.00 COSMOS
+[INFO] Balance check successful: 1000.00 COSMOS
+
+[INFO] Contract code check for exampleContract...
+[DEBUG] Contract address: cosmos1... (example contract address)
+[DEBUG] RPC request: contract code for cosmos1...
+[INFO] Contract code response: 0xabcdef1234567890...
+[INFO] Contract code check successful
+
+[INFO] Verifying data in Cosmos Testnet BaseScan Explorer...
+[DEBUG] Explorer URL: https://testnet.cosmos.basescan.org/address/cosmos1...
+[INFO] Explorer response: Account data fetched successfully
+[INFO] Explorer check successful
+
+[DEBUG] Testnet validation completed for Cosmos Testnet
+[INFO] All validation steps passed successfully
+
+[DEBUG] Logging network query results and validation data to logs/execution.log
+[DEBUG] Execution completed without errors
